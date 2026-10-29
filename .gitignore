@@ -1,0 +1,14 @@
+node_modules/
+.pnpm-store/
+.next/
+out/
+dist/
+_build/
+deps/
+.coverage/
+.env
+.env.*
+!.env.example
+apps/web/.env.local
+.DS_Store
+*.log
