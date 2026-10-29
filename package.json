@@ -1,0 +1,12 @@
+{
+  "name": "pulseops",
+  "private": true,
+  "version": "0.1.0",
+  "packageManager": "pnpm@10.18.0",
+  "scripts": {
+    "dev": "pnpm --filter @pulseops/web dev",
+    "build": "pnpm --filter @pulseops/web build",
+    "lint": "pnpm --filter @pulseops/web lint",
+    "typecheck": "pnpm --filter @pulseops/web typecheck"
+  }
+}
